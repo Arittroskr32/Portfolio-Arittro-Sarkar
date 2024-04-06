@@ -16,6 +16,7 @@ const scroll = new LocomotiveScroll({
 var typed = new Typed('#portfolio_text', {
     strings: ['Portfolio', 'Portfolio'],
     typeSpeed: 200,
+    startDelay: 3000,
     cursorChar: '.'
 });
 
@@ -23,7 +24,7 @@ var typed = new Typed('#portfolio_text', {
 var typed = new Typed('#page2_text', {
     strings: ['I am a frontend developer', 'For other details read my CV'],
     typeSpeed: 70,
-    startDelay: 3000,
+    startDelay: 6000,
     cursorChar: '.'
 });
 
