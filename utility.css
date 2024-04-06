@@ -1,0 +1,837 @@
+.flex{
+    display: flex;
+}
+.align-item{
+    align-items: center;
+}
+.relative{
+    position: relative;
+}
+.line-break{
+    width: 100%;
+    height: 0.5vh;
+    background-color: gray;
+}
+.text_color{
+    color: rgb(211, 24, 34);
+}
+
+
+@media only screen and (max-width: 1400px){
+    #page1{
+        height: 80vh;
+    }
+    .left-navbar {
+        width: 16vw;
+    }
+    .right-navbar {
+        width: 83vw;
+    }
+    .left-navbar img{
+        height: 8vh;
+        width: 85%;
+    }
+    .right-navbar h2 {
+        height: 5.5vw;
+        width: 10vw;
+        font-size: 2vw;
+        padding-top: 1.2vw;
+    }
+    .right-navbar h2 a{
+        font-weight: 500;
+    }
+    .page1_main{
+        height: 70%;
+    }
+    .page1_main_body{
+        height: 90%;
+    }
+    .right_page1 .right_page1_main h1{
+        font-size: 5.2vw;
+    }
+    .right_page1 .right_page1_main .image_div{
+        width: 26vw;
+        height: 26vw;
+        bottom: 27%;
+    }
+    .right_page1_main .image_div_in{
+        width: 26vw;
+        height: 26vw;
+        bottom: 31%;
+    }
+    #page2{
+        min-height: 65vh;
+    }
+    #page2 .page2_main{
+        height: 55vh;
+    }
+    .page2_main .page2_left .page2_text{
+        height: 20vh;
+    }
+    .page2_main .page2_left .page2_text p{
+        font-size: 1.4vw;
+    }
+    .page2_left .main_gola{
+        width: 11vw;
+        height: 11vw;
+    }
+    .page2_left .gola1{
+        left: 5vw;
+    }
+    .page2_left .gola2{
+        left: 5vw;
+    }
+
+    /* profile card start */
+    .profile_card{
+        width: 33vw;
+        height: 34vw;
+    }
+    .image{
+        height: 53%;
+        width: 53%; 
+    }
+    .card_text .name{
+        font-size: 2vw;
+    }
+    .card_text .job{
+        font-size: 1.8vw;
+    }
+    .media-button .link{
+        height: 3.2vw;
+        width: 3.2vw;
+        font-size: 2.3vw;
+    }
+
+    /* profile card end */
+
+    .page2_main .page2_right .page2_text{
+        height: 5vh;
+        font-size: 2.2vw;
+    }
+    .page2_main .page2_right button{
+        margin: 0vh 14vw;
+        font-size: 1.5vw;
+        height: 5vh;
+        width: 12vw;
+    }
+    #page3{
+        min-height: 150vh;
+    }
+    .page3_card{
+        height: 75vh;
+    }
+    .page3_card .card{
+        height: 27vh;
+        width: 22vw;
+        margin-left: 2vw;
+    }
+    .page3_card .card h2 {
+        width: 6vw;
+        height: 3vh;
+    }
+    .page3_card .card img {
+        height: 6vw;
+        width: 6vw;
+    }
+    .page3_card .card p {
+        height: 50%;
+    }
+    .container_page3{
+        margin: 0;
+        height: 60vh;
+    }
+    .bar{
+        height: 7vh;
+        width: 60%;
+    }
+    .technical-skill{
+        margin: 0;
+        margin-left: 14vw;
+    }
+    #page4{
+        min-height: 145vh;
+    }
+    .content_page4 .box{
+        width: 30vw;
+        height: 30vh;
+        margin: 2vh 0;
+    }
+    .content_page4 .box2, .content_page4 .box4 {
+        margin-left: 60vw;
+    }
+    .content_page4 .box img{
+        height: 45%;
+    }
+    .content_page4 .box .box_text{
+        font-size: 1.50vw;
+    }
+    .content_page4 .box:hover{
+        width: 34vw;
+        height: 34vh;
+    }
+    #page5{
+        min-height: 60vh;
+        padding: 10vh 0;
+    }
+    .left_page5{
+        padding: 10vh 0;
+        padding-left: 3vw;
+    }
+    .left_page5 h1{
+        font-size: 5vw;
+    }
+    .left_page5 h3{
+        font-size: 3vw;
+    }
+    .left_page5 p {
+        font-size: 1.7vw;
+    }
+    .left_page5 .icon .link{
+        font-size: 2.2vw;
+    }
+    .right_page5 input{
+        height: 3.2vh;
+        border-radius: 18px;
+        font-size: 1.2rem;
+    }
+    .right_page5 textarea{
+        font-size: 1.2rem;
+    }
+    .footer{
+        height: 44px;
+    }
+    .footer h3{
+        font-size: 1.37rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 1070px){
+    #page1{
+        min-height: 95vh;
+    }
+    .page1_main {
+        height: 78%;
+    }
+    .left-navbar img {
+        margin-top: 1.2vh;
+    }
+    .page1_main_body .page1_box {
+        width: 5vw;
+        height: 5vw;
+    }
+    .left-navbar img {
+        height: 8vh;
+        width: 95%;
+    }
+    .right_page1 .right_page1_main h1 {
+        padding-top: 4vh;
+        font-size: 5.2vw;
+    }
+
+    #page2 {
+        min-height: 90vh;
+    }
+    #page2 .page2_main {
+        padding-top: 10vh;
+        height: 75vh;
+    }
+    .page2_main .page2_left .page2_text {
+        height: 27vh;
+    }
+    .page2_main .page2_left .page2_text p {
+        font-size: 1.7vw;
+    }
+    .page2_main .page2_left .my_name {
+        padding-bottom: 4vh;
+    }
+    .page2_left .main_gola{
+        width: 13vw;
+        height: 13vw;
+    }
+    .page2_main .page2_right button {
+        margin: 1vh 14vw;
+        font-size: 1.5vw;
+        height: 5vh;
+        width: 12vw;
+    }
+    .profile_card{
+        margin-left: 8vw;
+        width: 33vw;
+        height: 34vw;
+    }
+    .page2_main .page2_right button{
+        font-size: 1.8vw;
+        width: 15vw;
+        margin: 0 15vw;
+    }
+    .page3_card {
+        height: 84vh;
+    }
+    .page3_card .card {
+        height: 35vh;
+        width: 30vw;
+    }
+    .page3_card .card img {
+        height: 8vw;
+        width: 8vw;
+    }
+    .page3_card .card h2 {
+        margin-left: 8vw;
+        width: 7vw;
+        height: 4vh;
+    }
+    .container_page3 {
+        margin: 0;
+        height: 80vh;
+    }
+    .bar {
+        height: 10vh;
+        width: 65%;
+    }
+    #page4 {
+        min-height: 185vh;
+    }
+    .content_page4 .box {
+        width: 36vw;
+        height: 40vh;
+        margin: 2vh 0;
+    }
+    .content_page4 .box .box_text {
+        font-size: 1.8vw;
+    }
+    .content_page4 .box:hover{
+        width: 42vw;
+        height: 43vh;
+    }
+    .content_page4 .box2, .content_page4 .box4 {
+        margin-left: 52vw;
+    }
+    .footer {
+        height: 35px;
+    }
+
+    .container1 {
+        height: 40vh;
+    }
+}
+
+
+@media only screen and (max-width: 850px){
+    .left-navbar {
+        width: 19vw;
+    }
+    .left-navbar img {
+        height: 7vh;
+        width: 95%;
+        margin-top: 1.2vh;
+    }
+    .right-navbar {
+        width: 80vw;
+    }
+    .right-navbar h2 {
+        height: 6.5vw;
+        width: 12vw;
+        font-size: 2.4vw;
+        padding-top: 1.2vw;
+    }
+    .page1_main_body .page1_box {
+        width: 6vw;
+        height: 6vw;
+    }
+    .page1_main_body > h1 {
+        width: 85vw;
+        height: 18.5vw;
+        position: absolute;
+        bottom: 0;
+        font-size: 16vw;
+    }
+    .right_page1 .right_page1_main .image_div {
+        left: 13%;
+        width: 35vw;
+        height: 36vw;
+        bottom: 26%;
+    }
+    .right_page1_main .image_div_in {
+        left: 19%;
+        width: 33vw;
+        height: 33vw;
+        bottom: 32%;
+    }
+    .right_page1 .right_page1_main img {
+        width: 30vw;
+        height: 30vw;
+    }
+    .right_page1 .right_page1_main h1 {
+        padding-top: 7vh;
+        font-size: 6.2vw;
+    }
+
+    #page2 {
+        min-height: 85vh;
+    }
+    #page2 .page2_main {
+        padding-top: 10vh;
+        height: 65vh;
+    }
+    .page2_main .page2_right .page2_text {
+        width: 43vw;
+        margin-left: 6vw;
+        height: 5vh;
+        font-size: 3vw;
+    }
+    .page2_main .page2_right button {
+        font-size: 2.2vw;
+        width: 19vw;
+        margin: 0 15vw;
+    }
+    .page2_main .page2_left .page2_text p {
+        padding: 6vw 4vw;
+        font-size: 1.6vw;
+        font-weight: 500;
+    }
+    .profile_card{
+        width: 38vw;
+        height: 40vw;
+    }
+    .image{
+        height: 56%;
+        width: 56%; 
+    }
+    .card_text .name{
+        font-size: 2.6vw;
+    }
+    .card_text .job{
+        font-size: 2vw;
+    }
+    .media-button .link{
+        height: 4.2vw;
+        width: 4.2vw;
+        font-size: 3vw;
+    }
+
+    .page3_card .card img {
+        height: 9vw;
+        width: 9vw;
+    }
+    .page3_card .card h2 {
+        margin-left: 8vw;
+        width: 10vw;
+        height: 4vh;
+    }
+    .page3_card .card h2 a{
+        font-size: 2vw;
+    }
+    .page3_card .card p {
+        font-size: 2vw;
+    }
+    .page3_card .card {
+        height: 33vh;
+        width: 30vw;
+    }
+
+    #page4 {
+        min-height: 175vh;
+    }
+    #page4 >h1{
+        font-size: 3rem;
+    }
+    .content_page4 .box {
+        width: 50vw;
+        height: 43vh;
+        margin: 2vh 0;
+    }
+    .content_page4 .box:hover{
+        width: 54vw;
+        height: 54vh;
+    }
+    .content_page4 .box .box_text {
+        font-size: 2.4vw;
+        height: 42%;
+    }
+    .content_page4 .box2, .content_page4 .box4 {
+        margin-left: 42vw;
+    }
+
+    .left_page5 h1 {
+        font-size: 6vw;
+    }
+    .left_page5 h3 {
+        font-size: 3.5vw;
+    }
+    .left_page5 p {
+        font-size: 2vw;
+    }
+    .left_page5 .icon {
+        height: 7vw;
+    }
+    .left_page5 .icon .link {
+        font-size: 3.4vw;
+    }
+    .right_page5 button {
+        width: 9vw;
+        height: 4.4vw;
+    }
+
+    .container1 {
+        height: 32vh;
+    }
+}
+
+
+/* 450 and 920 */
+@media only screen and (max-width: 450px){
+    #page1 {
+        min-height: 88vh;
+    }
+    .left-navbar {
+        width: 34vw;
+    }
+    .right-navbar {
+        opacity: 0;
+        z-index: -1;
+    }
+    .left-navbar img {
+        height: 6vh;
+        width: 90%;
+        margin-top: 2vh;
+        margin-left: 3vw;
+    }
+    .menubar {
+        right: 7%;
+        top: 14%;
+        position: absolute;
+        width: 11vw;
+        height: 11vw;
+        opacity: 1;
+        z-index: 1;
+    }
+    .menubar i {
+        font-size: 3.4rem;
+    }
+    .page1_main {
+        margin: 4vw 0;
+        margin-left: 4vw;
+        width: 95%;
+    }
+    .page1_main_body {
+        position: relative;
+    }
+    .page1_main_body .left_page1{
+        width: 50vw;
+    }
+    .page1_main_body .page1_box {
+        width: 8vw;
+        height: 8vw;
+        margin: 3vw 3vw;
+    }
+    .right_page1 .right_page1_main .image_div {
+        left: 1%;
+        width: 42vw;
+        height: 44vw;
+        bottom: 33%;
+    }
+    .right_page1_main .image_div_in {
+        left: 5%;
+        width: 35vw;
+        height: 35vw;
+        bottom: 43%;
+    }
+    .right_page1 .right_page1_main img {
+        width: 35vw;
+        height: 35vw;
+    }
+    .page1_main_body h1 span{
+        text-shadow: 12px 10px 3px #0000006e;
+    }
+    .right_page1 .right_page1_main h1 {
+        text-shadow: 3px 3px 3px #00000073;
+    }
+    .page1_main_body > h1 {
+        width: 95.5vw;
+        height: 24vw;
+        position: absolute;
+        bottom: 0;
+        font-size: 21vw;
+    }
+
+    #page2 {
+        min-height: 75vh;
+    }
+    #page2 > h1 {
+        font-size: 10vw;
+        margin: 2vh 0;
+    }
+    #page2 .page2_main {
+        padding-top: 4vh;
+        height: 58vh;
+        width: 99%;
+    }
+    .page2_main .page2_left {
+        width: 50%;
+    }
+    .page2_main .page2_left h1{
+        font-size: 6vw;
+        z-index: 2;
+        position: relative;
+    }
+    .page2_main .page2_left .page2_text {
+        width: 85%;
+        margin-left: 4vw;
+    }
+    .page2_left .main_gola {
+        width: 15vw;
+        height: 15vw;
+    }
+    .page2_left .gola1 {
+        left: 4vw;
+    }
+    .page2_left .gola2 {
+        left: 4vw;
+    }
+    .page2_main .page2_right {
+        width: 46%;
+    }
+    .profile_card{
+        margin: 2vh 1vw;
+        margin-left: 4vw;
+        width: 40vw;
+        height: 45vw;
+    }
+    .image{
+        height: 56%;
+        width: 57%; 
+        margin-bottom: 0px;
+    }
+    .profile_card .card_text{
+        margin: 0.5vw 0;
+    }
+    .card_text .name{
+        font-size: 3vw;
+    }
+    .card_text .job{
+        font-size: 2.8vw;
+    }
+    .media-button .link{
+        height: 4vw;
+        width: 4vw;
+        font-size: 3vw;
+        margin: 0 3px;
+    }
+    .page2_main .page2_right .page2_text {
+        width: 43vw;
+        margin-left: 3vw;
+        height: 3.4vh;
+        font-size: 3vw;
+    }
+    .page2_main .page2_left .page2_text {
+        border-radius: 2rem;
+    }
+    .page2_main .page2_left .page2_text p {
+        padding: 5vw 3vw;
+        font-size: 2.2vw;
+    }
+    .page2_main .page2_right button {
+        font-size: 2.8vw;
+        width: 21vw;
+        margin: 0 12vw;
+    }
+    @keyframes gola2_anim{
+        from{
+            transform: translate(-7vw, 7vw);
+        }
+        to{
+            transform: translate(5vw, -5vw);
+        }
+    }
+
+
+    #page3 >h1{
+        font-size: 10vw;
+        margin: 2vh 0;
+    }
+    .page3_card {
+        padding-left: 2vw;
+        height: 120vh;
+        width: 99%;
+    }
+    .page3_card .card {
+        margin: 0vw 0;
+        height: 36vh;
+        width: 45vw;
+        margin-left: 2vw;
+    }
+    .page3_card .card img {
+        margin-top: 1vh;
+        margin-left: 14vw;
+        height: 12vw;
+        width: 12vw;
+        margin-bottom: 1vh;
+    }
+    .page3_card .card p {
+        height: 60%;
+        font-size: 3.5vw;
+    }
+    .page3_card .card h2 {
+        margin-left: 12vw;
+        width: 14vw;
+        height: 4vh;
+        border: 1px solid black;
+    }
+    .page3_card .card h2 a {
+        text-decoration: none;
+        font-size: 4vw;
+        padding-top: 0px;
+    }
+    .heading {
+        font-size: 8vw;
+        margin: 2vh 0;
+    }
+    .technical-skill {
+        margin: 2vw 0;
+        margin-left: 12vw;
+    }
+    .bar {
+        height: 10vh;
+        width: 87%;
+    }
+    .bar i {
+        font-size: 1.8rem;
+    }
+    .bar .info {
+        font-size: 1.2rem;
+    }
+    .technical-skill .bar .progress-line {
+        width: 100%;
+        height: 5px;
+    }
+
+
+    #page4 {
+        min-height: 170vh;
+    }
+    #page4 >h1{
+        height: 7vh;
+        font-size: 6vw;
+        margin: 2vh 0;
+        margin-bottom: 3vh;
+    }
+    .content_page4 .box .bottom_page4 {
+        font-size: 1rem;
+    }
+    .content_page4 .box:hover{
+        width: 56vw;
+        height: 42vh;
+    }
+    .content_page4 .box:hover .box_text >P{
+        font-size: 2.5vw;
+    }
+    .content_page4 .box:hover .box_text h2{
+        font-size: 4.5vw;
+        font-weight: 700;
+    }
+    .content_page4 .box:hover .box_text h5{
+        font-size: 3vw;
+        font-weight: 700;
+    }
+    .content_page4 .box2, .content_page4 .box4 {
+        margin-left: 44vw;
+    }
+    .content_page4 .box2:hover{
+        margin-left: 39vw;
+    }
+    .content_page4 .box4:hover{
+        margin-left: 39vw;
+    }
+
+
+    .left_page5 h3 {
+        padding: 0.4vh 0;
+    }
+    .right_page5 input {
+        height: 1.2vh;
+        border-radius: 6px;
+        font-size: 0.6rem;
+    }
+    .right_page5 textarea {
+        width: 82%;
+        height: 20vh;
+        font-size: 0.60rem;
+    }
+    .right_page5 button {
+        width: 11vw;
+        height: 6.4vw;
+        font-size: 0.75rem;
+    }
+
+    .footer {
+        padding-top: 4px;
+        height: 20px;
+    }
+    .footer h3 {
+        font-size: 0.60rem;
+    }
+
+    .line-break {
+        height: 0.3vh;
+    }
+
+    .messageopt {
+        width: 8vw;
+        height: 8vw;
+    }
+    .messageopt i{
+        font-size: 6vw;
+    }
+    .messageopt h4 {
+        font-size: 2vw;
+    }
+    .container1 h3,.container1 h4,.container1 h3 span,.container1 h4 span{
+        font-size: 2vw;
+    }
+    .container1 {
+        min-width: 26vw;
+        margin: 21vw 3px;
+        height: 31vh;
+    }
+    .cross2 {
+        width: 7.5vw;
+        height: 7.5vw;
+    }
+    .cross2 i {
+        font-size: 7vw;
+    }
+    .allmsg {
+        width: 95vw;
+        bottom: 22px;
+        height: 70vh;
+    }
+}
+
+
+@media only screen and (max-height: 720px){
+    .page2_main .page2_left .page2_text {
+        height: 33vh;
+    }
+    .profile_card {
+        height: 48vw;
+    }
+    .page3_card {
+        height: 133vh;
+    }
+    .page3_card .card {
+        height: 39vh;
+    }
+    .page3_card .card h2 {
+        height: 5vh;
+    }
+    .container_page3 {
+        height: 95vh;
+    }
+    .bar {
+        height: 13vh;
+        width: 87%;
+    }
+}
