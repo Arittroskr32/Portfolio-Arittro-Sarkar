@@ -242,7 +242,7 @@ html , body{
     width: 90%;
     height: 45vh;
     background-color: #9A9894;
-    border-radius: 4rem;
+    border-radius: 3rem;
     position: relative;
     z-index: 3;
 }
