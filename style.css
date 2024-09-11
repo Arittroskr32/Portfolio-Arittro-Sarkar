@@ -242,13 +242,13 @@ html , body{
     width: 90%;
     height: 45vh;
     background-color: #9A9894;
-    border-radius: 3rem;
+    border-radius: 4rem;
     position: relative;
     z-index: 3;
 }
 .page2_main .page2_left .page2_text p{
     padding: 2vw 3vw;
-    font-size: 1.5rem;
+    font-size: 1.4vw;
     font-weight: 400;
 }
 
@@ -335,7 +335,7 @@ html , body{
     font-size: 1.5vw;
     height: 6vh;
     width: 12vw;
-    background-color: rgb(0, 191, 255);
+    background-color: rgb(7, 201, 250);
     margin: 0 12vw;
     border: 0.20rem solid black;
 }
@@ -408,7 +408,7 @@ html , body{
 
 .page3_card{
     width: 100%;
-    height: 90vh;
+    min-height: 90vh;
     display: flex;
     flex-wrap: wrap;
     padding: 3vw 0;
@@ -416,7 +416,7 @@ html , body{
 
 .page3_card .card{
     width: 20vw;
-    height: 38vh;
+    height: 45vh;
     border: 2px solid black;
     border-radius: 4vw;
     padding: 0 2vw;
@@ -434,13 +434,13 @@ html , body{
 }
 .page3_card .card p{
     height: 46%;
-    font-size: 1.3rem;
+    font-size: 1.2vw;
     font-weight: 600;
 }
 .page3_card .card h2{
-    width: 5vw;
-    height: 5vh;
-    background-color: rgb(0, 191, 255);
+    width: 6vw;
+    height: 6vh;
+    background-color: #2D71D7;
     text-align: center;
     border: 2px solid black;
     border-radius: 2vw;
@@ -451,14 +451,14 @@ html , body{
 }
 .page3_card .card h2 a{
     text-decoration: none;
-    font-size: 1.7rem;
+    font-size: 1.2vw;
     padding-top: 4px;
-    color: white;
+    color: rgb(255, 0, 0);
 }
 
 .container_page3{
     width: 100%;
-    height: 70vh;
+    min-height: 70vh;
     margin: 10vh 0vw;
 }
 .heading{
@@ -480,10 +480,10 @@ html , body{
     width: 50%;
 }
 .bar i{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .bar .info{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     margin-bottom: 5px;
 }
 .technical-skill .bar .progress-line{
@@ -549,8 +549,8 @@ html , body{
     position: relative;
 }
 .content_page4 .box{
-    width: 20vw;
-    height: 35vh;
+    width: 24vw;
+    height: 45vh;
     margin: 2vh 4vw;
     border-radius: 2vw;
     background-color: #D9D9D9;
@@ -571,7 +571,7 @@ html , body{
 .content_page4 .box .bottom_page4{
     justify-content: center;
     gap: 1vw;
-    font-size: 1.4rem;
+    font-size: 1.2vw;
 }
 .content_page4 .box .bottom_page4 i{
     border: 1px solid rgb(232, 12, 12);
@@ -588,18 +588,18 @@ html , body{
 }
 
 .content_page4 .box:hover{
-    width: 25vw;
+    width: 26vw;
     height: 50vh;
 }
 .content_page4 .box:hover .box_text >P{
-    font-size: 1.2rem;
+    font-size: 1vw;
 }
 .content_page4 .box:hover .box_text h2{
-    font-size: 2.5rem;
+    font-size: 1.4vw;
     font-weight: 700;
 }
 .content_page4 .box:hover .box_text h5{
-    font-size: 1.4rem;
+    font-size: 1.2vw;
     font-weight: 700;
 }
 
@@ -676,8 +676,7 @@ html , body{
     width: 7vw;
     height: 3vw;
     border-radius: 20px;
-    background-color: rgb(0, 191, 255);
-    color: white;
+    background-color: #0ef;
     margin: 1vw 20vw;
 }
 .right_page5 button:hover{
@@ -708,8 +707,8 @@ html , body{
     width: 80vw;
     height: 80vh;
     background-color: rgb(144, 141, 141);
-    border-top-left-radius: 3vw;
-    border-bottom-left-radius: 3vw;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
     right: 200%;
     /* right: 0; */
     bottom: 0;
@@ -736,7 +735,7 @@ html , body{
     min-width: 20vw;
     height: 45vh;
     border: 2px solid black;
-    border-radius: 2vw;
+    border-radius: 10px;
     margin: 4vw 0;
     margin-left: 2vw;
     padding: 1vw;
